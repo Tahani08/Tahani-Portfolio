@@ -159,7 +159,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full flex justify-between items-center px-12 py-6 bg-gradient-to-r from-[#5C0120] to-[#400016] z-20 shadow-lg">
 
-        <h1 className="text-xl text-[#F5DEB3]">Tahani&apos;s Portfolio</h1>
+        <h1 className="text-xl text-[#F5DEB3]">Tahani Hassan | Portfolio</h1>
         <ul className="flex gap-10 text-[#F5DEB3] font-medium">
           {['About', 'Experience', 'Projects', 'Contact'].map((item) => (
             <li key={item}>
@@ -492,44 +492,7 @@ export default function Home() {
         </a>
       </div>
     </div>
-
-    {/* Right: Contact Form */}
-    <form className="space-y-6">
-      <div>
-        <label className="block text-[#F5DEB3] mb-2">Name</label>
-        <input
-          type="text"
-          placeholder="Your name..."
-          className="w-full px-4 py-2 rounded-md bg-[#5C0120] text-white border border-[#E6CBA8]/30 focus:outline-none focus:ring-2 focus:ring-[#E6CBA8]"
-        />
-      </div>
-
-      <div>
-        <label className="block text-[#F5DEB3] mb-2">Email</label>
-        <input
-          type="email"
-          placeholder="Your email..."
-          className="w-full px-4 py-2 rounded-md bg-[#5C0120] text-white border border-[#E6CBA8]/30 focus:outline-none focus:ring-2 focus:ring-[#E6CBA8]"
-        />
-      </div>
-
-      <div>
-        <label className="block text-[#F5DEB3] mb-2">Message</label>
-        <textarea
-          placeholder="Your message..."
-          rows="4"
-          className="w-full px-4 py-2 rounded-md bg-[#5C0120] text-white border border-[#E6CBA8]/30 focus:outline-none focus:ring-2 focus:ring-[#E6CBA8]"
-        />
-      </div>
-
-      <button
-        type="submit"
-        className="w-full bg-[#E6CBA8] text-[#400016] font-semibold px-6 py-3 rounded-md hover:shadow-[0_0_20px_#E6CBA8] transition"
-      >
-        Send Message
-      </button>
-    </form>
-  </div>
+    </div>
 </section>
 
     </main>
