@@ -471,11 +471,11 @@ export default function Home() {
 
   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
     {/* Left: Contact Info */}
-    <div>
-      <h3 className="text-2xl font-semibold text-[#F5DEB3] mb-4">Let's Connect</h3>
-      <p className="text-[#E6CBA8] mb-6">
-    Let’s connect! I’d love to chat about projects, ideas, or just say hi. 💌
-      </p>
+<div>
+  <h3 className="text-2xl font-semibold text-[#F5DEB3] mb-4">Let&apos;s Connect</h3>
+  <p className="text-[#E6CBA8] mb-6">
+    Let&apos;s connect! I&apos;d love to chat about projects, ideas, or just say hi. 💌
+  </p>
 
       <div className="space-y-4">
         <a href="mailto:tahani.hassan@duke.edu" className="flex items-center gap-3 hover:text-white transition">
