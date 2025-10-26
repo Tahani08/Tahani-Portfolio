@@ -119,7 +119,7 @@ export default function Home() {
       description: 'Designed a customizable Pomodoro productivity app with immersive themes and accessibility features to support focus and neurodiverse users.',
       tech: ['React.js', 'Javascript','Vite','HTML/CSS'],
       image: '/Neurofocus.png',
-      link: 'https://github.com/yourusername/portfolio',
+      link: 'https://neurofocus-pomodoroproductivitysuite.vercel.app/',
     },
     {
       title: 'Recommender System',
